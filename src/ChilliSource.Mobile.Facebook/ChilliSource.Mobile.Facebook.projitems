@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{D7914AF1-7D1E-4771-8CDF-74E3C9ADB1CF}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ChilliSource.Mobile.Facebook</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Entities\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IIdentityService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ISharingService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\FacebookSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IAppEventsService.cs" />
+  </ItemGroup>
+</Project>
