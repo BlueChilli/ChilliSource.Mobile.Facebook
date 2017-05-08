@@ -95,6 +95,24 @@
     <Reference Include="ChilliSource.Core.Extensions">
       <HintPath>..\packages\ChilliSource.Core.Extensions.1.0.5\lib\netstandard1.6\ChilliSource.Core.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="AndHUD">
+      <HintPath>..\packages\AndHUD.1.2.0\lib\MonoAndroid\AndHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilliSource.Mobile.UI.Core">
+      <HintPath>..\packages\ChilliSource.Mobile.UI.Core.1.0.0\lib\MonoAndroid403\ChilliSource.Mobile.UI.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie">
+      <HintPath>..\packages\Com.Airbnb.Android.Lottie.1.0.0.5\lib\MonoAndroid41\Lottie.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup">
+      <HintPath>..\packages\Rg.Plugins.Popup.0.0.17\lib\MonoAndroid\Rg.Plugins.Popup.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup.Droid">
+      <HintPath>..\packages\Rg.Plugins.Popup.0.0.17\lib\MonoAndroid\Rg.Plugins.Popup.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilliSource.Mobile.UI">
+      <HintPath>..\packages\ChilliSource.Mobile.UI.1.0.0\lib\MonoAndroid403\ChilliSource.Mobile.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
