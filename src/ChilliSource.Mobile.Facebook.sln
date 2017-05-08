@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ChilliSource.Mobile.Facebook", "ChilliSource.Mobile.Facebook\ChilliSource.Mobile.Facebook.shproj", "{D7914AF1-7D1E-4771-8CDF-74E3C9ADB1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChilliSource.Mobile.Facebook.Droid", "ChilliSource.Mobile.Facebook.Droid\ChilliSource.Mobile.Facebook.Droid.csproj", "{7AD63711-F3F1-47F7-9115-46AFD70C5D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChilliSource.Mobile.Facebook.iOS", "ChilliSource.Mobile.Facebook.iOS\ChilliSource.Mobile.Facebook.iOS.csproj", "{B532AD9D-0D86-43A4-9A30-0E864E5EAD48}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ChilliSource.Mobile.Facebook\ChilliSource.Mobile.Facebook.projitems*{7ad63711-f3f1-47f7-9115-46afd70c5d3e}*SharedItemsImports = 4
+		ChilliSource.Mobile.Facebook\ChilliSource.Mobile.Facebook.projitems*{b532ad9d-0d86-43a4-9a30-0e864e5ead48}*SharedItemsImports = 4
+		ChilliSource.Mobile.Facebook\ChilliSource.Mobile.Facebook.projitems*{d7914af1-7d1e-4771-8cdf-74e3c9adb1cf}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AD63711-F3F1-47F7-9115-46AFD70C5D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD63711-F3F1-47F7-9115-46AFD70C5D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD63711-F3F1-47F7-9115-46AFD70C5D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD63711-F3F1-47F7-9115-46AFD70C5D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B532AD9D-0D86-43A4-9A30-0E864E5EAD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B532AD9D-0D86-43A4-9A30-0E864E5EAD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B532AD9D-0D86-43A4-9A30-0E864E5EAD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B532AD9D-0D86-43A4-9A30-0E864E5EAD48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
