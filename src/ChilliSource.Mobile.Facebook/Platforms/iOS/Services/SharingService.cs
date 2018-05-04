@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 using ChilliSource.Mobile.Core;
 using ChilliSource.Mobile.Facebook;
-using ChilliSource.Mobile.UI.Core;
+using ChilliSource.Mobile.UI;
 using Facebook.ShareKit;
 using Foundation;
 
